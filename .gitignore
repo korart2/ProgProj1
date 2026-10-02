@@ -1,0 +1,25 @@
+# 1. Ignore everything
+*
+
+# 2. Un-ignore directories so git can traverse them
+!*/
+
+# 3. Un-ignore the allowed file extensions
+!*.cpp
+!*.h
+!*.txt
+!*.md
+!*.json
+!*.jpg
+!*.jpeg
+!*.png
+
+# 4. Un-ignore this file itself
+!/.gitignore
+
+# 5. Ignore generated and IDE folders (must stay after the rules above)
+build/
+out/
+.vs/
+.vscode/
+CMakeUserPresets.json
